@@ -1,0 +1,21 @@
+body {
+    background-color: #63666A;
+    color: #041E42;
+}
+
+.navbar {
+    background-color: #041E42;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h6, p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #041E42;
+}
+
+.indent, p, h1, h4 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
