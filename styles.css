@@ -1,5 +1,5 @@
 body {
-    background-color: #63666A;
+    background-color: #848688;
     color: #041E42;
 }
 
@@ -7,6 +7,13 @@ body {
     background-color: #041E42;
     padding: 20px;
     text-align: center;
+}
+
+.navbar a {
+    color: #848688;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
 }
 
 h1, h2, h3, h4, h6, p {
