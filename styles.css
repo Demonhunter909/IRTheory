@@ -16,6 +16,15 @@ body {
     margin: 0 15px;
 }
 
+/* Navbar toggler (hamburger menu) button styling */
+.navbar-toggler {
+    border-color: #848688;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23848688' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 h1, h2, h3, h4, h6, p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #041E42;
@@ -25,4 +34,64 @@ h1, h2, h3, h4, h6, p {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+/* New styles for better text formatting */
+.content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-section {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.text-section h1, .text-section h4, .text-section h6 {
+    text-align: left;
+    margin-bottom: 15px;
+    color: #041E42;
+}
+
+.text-section p {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sub-theory {
+    background-color: rgba(248, 249, 250, 0.8);
+    border-left: 4px solid #041E42;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.sub-theory h6 {
+    margin-bottom: 10px;
+    color: #041E42;
+    font-weight: bold;
+}
+
+hr.solid {
+    border: none;
+    height: 2px;
+    background-color: #041E42;
+    margin: 30px 0;
+}
+
+#georgetown {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
 }
